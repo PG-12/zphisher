@@ -69,6 +69,7 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
+
         ${ORANGE}
 	${ORANGE{ #######  #######   //#  #######
         ${ORANGE} #     #  #        //##        #            
@@ -85,6 +86,7 @@ banner() {
 ## Small Banner
 banner_small() {
 	cat <<- EOF
+
         ${ORANGE}
 	${ORANGE{ #######  #######   //#  #######
         ${ORANGE} #     #  #        //##        #            
