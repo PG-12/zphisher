@@ -70,16 +70,7 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 
-        ${ORANGE}
-	${ORANGE{ #######  #######   //#  #######
-        ${ORANGE} #     #  #        //##        #            
-        ${ORANGE} #     #  #          ##        #
-        ${ORANGE} #######  #######    ##  #######
-        ${ORANGE} #        #     #    ##  #
-        ${ORANGE} #        #     #    ##  #
-        ${ORANGE} #        #######    ##  #######  ${RED}Version : 9.7
-
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by (PG-12) (PRINCE GUTIERREZ)${WHITE}
+        		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by (PG-12) (PRINCE GUTIERREZ)${WHITE}
 	EOF
 }
 
@@ -87,15 +78,7 @@ banner() {
 banner_small() {
 	cat <<- EOF
 
-        ${ORANGE}
-	${ORANGE{ #######  #######   //#  #######
-        ${ORANGE} #     #  #        //##        #            
-        ${ORANGE} #     #  #          ##        #
-        ${ORANGE} #######  #######    ##  #######
-        ${ORANGE} #        #     #    ##  #
-        ${ORANGE} #        #     #    ##  #
-        ${ORANGE} #        #######    ##  #######
-		${WHITE} 9.7
+        
 	EOF
 }
 
